@@ -64,17 +64,15 @@ The regression analysis relies on standard OLS assumptions:
 - Many career performance metrics are **highly correlated**, which may introduce multicollinearity in regression.
 - Salary may be influenced by **external factors not captured** here (contracts, injuries, marketability, team strategy).
 
-## How to Run
-
-Follow the steps below to run this project locally.
-
-### 1️⃣ Clone the repository
-
-```bash
-git clone https://github.com/vmhoangg/mlb-eda-project.git
-cd mlb-eda-project
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-jupyter notebook
-notebook/eda_analysis.ipynb
+### How to run
+1) Create and activate virtual environment
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # macOS / Linux
+   .\venv\Scripts\activate   # Windows
+2) Install dependencies
+   ```bash
+   pip install -r requirements.txt
+3) Open notebook
+   ```bash
+   jupyter notebook
