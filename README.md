@@ -1,3 +1,6 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/vmhoangg/mlb-eda-project)
+![GitHub stars](https://img.shields.io/github/stars/vmhoangg/mlb-eda-project?style=social)
+
 # MLB Exploratory Data Analysis (EDA)
 
 ## Business Objective
