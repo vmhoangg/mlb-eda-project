@@ -65,6 +65,16 @@ The regression analysis relies on standard OLS assumptions:
 - Salary may be influenced by **external factors not captured** here (contracts, injuries, marketability, team strategy).
 
 ## How to Run
-### 1) Install dependencies
+
+Follow the steps below to run this project locally.
+
+### 1️⃣ Clone the repository
+
 ```bash
+git clone https://github.com/vmhoangg/mlb-eda-project.git
+cd mlb-eda-project
+python -m venv venv
+venv\Scripts\activate
 pip install -r requirements.txt
+jupyter notebook
+notebook/eda_analysis.ipynb
